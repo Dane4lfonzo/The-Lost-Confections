@@ -178,6 +178,54 @@
         "name": "stand2",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/children/childrenlvl1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/children/childrenlvl1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/children/childrenlvl2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/children/childrenlvl1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/children/childrenlvl2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/children/childrenlvl2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/stand3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "stand3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/stand4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "stand4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/arrow.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -202,6 +250,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/stayonscreen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ysort"
     }
   ],
   "externalLayouts": []

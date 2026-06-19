@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3300560049165935,
+    "zoomFactor": 0.31928945896901806,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -49,15 +49,83 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
+      "height": 189.19999999999982,
+      "keepRatio": true,
+      "layer": "Player + NPC",
+      "name": "childlvl1",
+      "persistentUuid": "3403f28b-e427-4c36-97a5-0a94e2fdf447",
+      "width": 172,
+      "x": 255,
+      "y": 576,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
       "height": 308.7499999999998,
       "keepRatio": true,
-      "layer": "",
+      "layer": "Player + NPC",
       "name": "Stanley",
-      "persistentUuid": "3f907e03-ba6d-4067-a86d-35eab78bbef2",
+      "persistentUuid": "ff5e78b5-658d-46fe-85e9-7cf835dbf028",
       "width": 247,
-      "x": 403,
-      "y": 527,
-      "zOrder": 2,
+      "x": 981,
+      "y": 634,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 117.99999999999997,
+      "keepRatio": true,
+      "layer": "",
+      "name": "arrow",
+      "persistentUuid": "93cb9020-df93-446d-83fb-772ca04b2a8d",
+      "width": 118,
+      "x": 927,
+      "y": 7,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 0,
+      "height": 117.99999999999997,
+      "keepRatio": true,
+      "layer": "",
+      "name": "arrow",
+      "persistentUuid": "07227fb0-1369-4010-810b-853c60fe6a83",
+      "width": 118,
+      "x": 928,
+      "y": 934,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 117.99999999999997,
+      "keepRatio": true,
+      "layer": "",
+      "name": "arrow",
+      "persistentUuid": "42e113ae-03e0-4173-8d90-7a3c91a8e415",
+      "width": 118,
+      "x": 1793,
+      "y": 522,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -92,12 +160,17 @@
       "effects": [],
       "behaviors": [
         {
+          "isFolded": true,
           "name": "StayOnScreen",
           "type": "StayOnScreen::StayOnScreen",
           "MarginTop": 0,
           "MarginBottom": 0,
           "MarginLeft": 0,
           "MarginRight": 0
+        },
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
         }
       ],
       "animations": [
@@ -116,8 +189,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 356,
+                    "y": 727.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -152,8 +225,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 356,
+                    "y": 727.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -201,8 +274,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 356,
+                    "y": 727.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -237,8 +310,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 356,
+                    "y": 727.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -272,6 +345,170 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "childlvl1",
+      "persistentUuid": "382091c4-777b-4926-9bd8-a6726a8f3fce",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
+      "animations": [
+        {
+          "name": "stand",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.8,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "stand3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 19.5,
+                    "y": 44
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 38,
+                        "y": 1
+                      },
+                      {
+                        "x": 38,
+                        "y": 44
+                      },
+                      {
+                        "x": 0,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "stand4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 19.5,
+                    "y": 44
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 38,
+                        "y": 1
+                      },
+                      {
+                        "x": 38,
+                        "y": 44
+                      },
+                      {
+                        "x": 0,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "arrow",
+      "persistentUuid": "5694f31c-3793-4d72-b2a1-42e9948fcdaa",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/arrow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 32,
+                        "y": 1
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -282,6 +519,12 @@
       },
       {
         "objectName": "Stanley"
+      },
+      {
+        "objectName": "childlvl1"
+      },
+      {
+        "objectName": "arrow"
       }
     ]
   },
@@ -502,7 +745,19 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "childlvl1",
+            "Animation",
+            "=",
+            "\"stand\""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -583,7 +838,61 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Player",
+      "name": "Player + NPC",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Indicator",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -654,6 +963,10 @@
     {
       "name": "StayOnScreen",
       "type": "StayOnScreen::StayOnScreen"
+    },
+    {
+      "name": "YSort",
+      "type": "YSort::YSort"
     }
   ]
 }
