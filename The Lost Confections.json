@@ -1,12 +1,11 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 272,
+    "build": 265,
     "major": 5,
     "minor": 6,
     "revision": 0
   },
-  "initialGDVersion": "5.6.270",
   "properties": {
     "adaptGameResolutionAtRuntime": true,
     "antialiasingMode": "MSAA",
@@ -17,7 +16,7 @@
     "pixelsRounding": true,
     "projectUuid": "f8d04c1e-b66a-4e56-bda6-ebcc31e57ce7",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "adaptHeight",
     "templateSlug": "",
     "version": "1.0.0",
     "name": "The Lost Confections",
@@ -91,7 +90,96 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": []
+    "resources": [
+      {
+        "file": "bg_lvl5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg_lvl5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "bg_lvl6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg_lvl6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "stanley_sp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "stanley_sp.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/stanley_sp.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "stanley_sp",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/stanley_sp2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "stanley_sp2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/stanley_sp3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "stanley_sp3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/stanley_sp4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "stanley_sp4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite2.png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/stand.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "stand",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/stand2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "stand2",
+        "smoothed": false,
+        "userAdded": false
+      }
+    ]
   },
   "objects": [],
   "objectsFolderStructure": {
@@ -103,9 +191,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/untitled-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/firstroom"
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/stayonscreen"
+    }
+  ],
   "externalLayouts": []
 }
