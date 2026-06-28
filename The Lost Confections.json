@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 265,
+    "build": 269,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -10,53 +10,25 @@
     "adaptGameResolutionAtRuntime": true,
     "antialiasingMode": "MSAA",
     "antialisingEnabledOnMobile": false,
-    "folderProject": true,
-    "orientation": "default",
+    "folderProject": false,
+    "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "pixelsRounding": true,
-    "projectUuid": "f8d04c1e-b66a-4e56-bda6-ebcc31e57ce7",
-    "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptHeight",
+    "pixelsRounding": false,
+    "projectUuid": "5504fa70-2007-4b95-a5e1-81338aeaab62",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
     "version": "1.0.0",
     "name": "The Lost Confections",
     "description": "",
     "author": "",
-    "windowWidth": 1920,
-    "windowHeight": 1080,
+    "windowWidth": 1280,
+    "windowHeight": 720,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
-    "platformSpecificAssets": {
-      "android-icon-144": "",
-      "android-icon-192": "",
-      "android-icon-36": "",
-      "android-icon-48": "",
-      "android-icon-72": "",
-      "android-icon-96": "",
-      "android-windowSplashScreenAnimatedIcon": "",
-      "desktop-icon-512": "",
-      "ios-icon-100": "",
-      "ios-icon-1024": "",
-      "ios-icon-114": "",
-      "ios-icon-120": "",
-      "ios-icon-144": "",
-      "ios-icon-152": "",
-      "ios-icon-167": "",
-      "ios-icon-180": "",
-      "ios-icon-20": "",
-      "ios-icon-29": "",
-      "ios-icon-40": "",
-      "ios-icon-50": "",
-      "ios-icon-57": "",
-      "ios-icon-58": "",
-      "ios-icon-60": "",
-      "ios-icon-72": "",
-      "ios-icon-76": "",
-      "ios-icon-80": "",
-      "ios-icon-87": ""
-    },
+    "platformSpecificAssets": {},
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
@@ -90,96 +62,7 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [
-      {
-        "file": "bg_lvl5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bg_lvl5.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "bg_lvl6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bg_lvl6.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "stanley_sp.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stanley_sp.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/stanley_sp.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "stanley_sp",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/stanley_sp2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "stanley_sp2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/stanley_sp3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "stanley_sp3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/stanley_sp4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "stanley_sp4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
-        "name": "NewSprite",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite2.png\"}",
-        "name": "NewSprite2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/stand.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "stand",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/stand2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "stand2",
-        "smoothed": false,
-        "userAdded": false
-      }
-    ]
+    "resources": []
   },
   "objects": [],
   "objectsFolderStructure": {
@@ -187,22 +70,8 @@
   },
   "objectsGroups": [],
   "variables": [],
-  "layouts": [
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/untitled-scene"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/firstroom"
-    }
-  ],
+  "layouts": [],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/stayonscreen"
-    }
-  ],
+  "eventsFunctionsExtensions": [],
   "externalLayouts": []
 }
