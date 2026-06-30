@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2448838363372705,
+    "zoomFactor": 0.06718013533820782,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -459,7 +459,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/arrow.png",
+                  "image": "assets/directions/arrow.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -520,7 +520,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "E.png",
+                  "image": "assets/directions/E.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -565,7 +565,7 @@
       "height": 700,
       "name": "Floor",
       "persistentUuid": "3b9efe64-ccf2-48b0-836c-2c7ba12cb12d",
-      "texture": "background.png",
+      "texture": "assets/backgrounds/background.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 1200,
       "variables": [],
@@ -577,7 +577,7 @@
       "height": 1080,
       "name": "wallend",
       "persistentUuid": "8eea9f77-9fa1-4a99-9da2-6c3d4f6cfa47",
-      "texture": "wallend.png",
+      "texture": "assets/backgrounds/wallend.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 1920,
       "variables": [],

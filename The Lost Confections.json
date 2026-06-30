@@ -283,6 +283,133 @@
         "name": "spotlight.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "retro-pixel-cute-prop.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "retro-pixel-cute-prop.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "down.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enter.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enter.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/playersprite/stanley_sp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/playersprite/stanley_sp.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/playersprite/stanley_sp2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/playersprite/stanley_sp2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/playersprite/stanley_sp3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/playersprite/stanley_sp3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/playersprite/stanley_sp4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/playersprite/stanley_sp4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/backgrounds/level_menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/backgrounds/level_menu.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/spotlight.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/spotlight.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/directions/arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/directions/arrow.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/directions/down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/directions/down.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/directions/enter.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/directions/enter.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/backgrounds/wall.png2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/backgrounds/wall.png2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/directions/E.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/directions/E.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/backgrounds/background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/backgrounds/background.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/backgrounds/wallend.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/backgrounds/wallend.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -314,7 +441,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "stand",
+                  "image": "assets/playersprite/stanley_sp.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -350,7 +477,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "stand2",
+                  "image": "assets/playersprite/stanley_sp2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -399,7 +526,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite",
+                  "image": "assets/playersprite/stanley_sp3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -435,7 +562,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite2",
+                  "image": "assets/playersprite/stanley_sp4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -480,7 +607,7 @@
       "height": 540,
       "name": "wall",
       "persistentUuid": "f8954a2e-24b5-4256-84c2-eeed9c3e1ca3",
-      "texture": "wall.png2",
+      "texture": "assets/backgrounds/wall.png2.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 650,
       "variables": [],
