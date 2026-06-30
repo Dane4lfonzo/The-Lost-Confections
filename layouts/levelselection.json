@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.45985214267363467,
+    "zoomFactor": 0.2890516203134938,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -70,9 +70,76 @@
       "name": "spotlight",
       "persistentUuid": "157fe2cb-ebb1-4fbf-bab3-4859e3b53a15",
       "width": 0,
-      "x": 560,
+      "x": 902,
       "y": 0,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Levels",
+      "persistentUuid": "ede555e8-100e-498f-a6f1-6d0c07cd816d",
+      "width": 0,
+      "x": 1470,
+      "y": 24,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -90,
+      "customSize": true,
+      "depth": 0,
+      "height": 104.00000000000003,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Arrows",
+      "persistentUuid": "47d0e1c7-b022-49f4-a201-053baf028221",
+      "width": 104,
+      "x": 1342,
+      "y": 563,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 104.00000000000003,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Arrows",
+      "persistentUuid": "02dba544-aeb3-418b-9a60-b2e8415a8ff1",
+      "width": 104,
+      "x": 732,
+      "y": 563,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 127.11111111111097,
+      "keepRatio": true,
+      "layer": "",
+      "name": "enter",
+      "persistentUuid": "8dc4cf93-4c8c-45a8-9dd2-3f1d25b74e74",
+      "width": 286,
+      "x": 1585,
+      "y": 841,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -84,7 +151,7 @@
       "height": 1080,
       "name": "background",
       "persistentUuid": "b2ad38a0-c3f6-4712-a0ff-ca7615c891f0",
-      "texture": "level_menu.png",
+      "texture": "assets/backgrounds/level_menu.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 1920,
       "variables": [],
@@ -112,7 +179,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "spotlight.png",
+                  "image": "assets/spotlight.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -151,6 +218,172 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Levels",
+      "persistentUuid": "b66a4b32-57d5-4a54-948a-d5682602f160",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "TUTORIAL",
+      "font": "retro-pixel-cute-prop.ttf",
+      "textAlignment": "left",
+      "characterSize": 100,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "TUTORIAL",
+        "font": "retro-pixel-cute-prop.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 100,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Arrows",
+      "persistentUuid": "4f6dac35-30ff-42ee-9c6b-58d7ac43d240",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "arrow down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/directions/down.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 55,
+                        "y": 0
+                      },
+                      {
+                        "x": 55,
+                        "y": 55
+                      },
+                      {
+                        "x": 0,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "enter",
+      "persistentUuid": "afc48b35-c47a-4bb1-a1c1-c1e1d563a5ee",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/directions/enter.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 180,
+                        "y": 0
+                      },
+                      {
+                        "x": 180,
+                        "y": 80
+                      },
+                      {
+                        "x": 0,
+                        "y": 80
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -161,6 +394,15 @@
       },
       {
         "objectName": "spotlight"
+      },
+      {
+        "objectName": "Levels"
+      },
+      {
+        "objectName": "Arrows"
+      },
+      {
+        "objectName": "enter"
       }
     ]
   },
@@ -310,6 +552,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "YSort",
