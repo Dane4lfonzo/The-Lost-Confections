@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 272,
+    "build": 273,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -410,6 +410,70 @@
         "name": "assets/backgrounds/wallend.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "../GDevelop-Projects/kenney_platformer-art-deluxe/Ice expansion/preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../GDevelop-Projects/kenney_platformer-art-deluxe/Ice expansion/preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "igloo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "igloo.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../GDevelop-Projects/kenney_platformer-art-deluxe/Ice expansion/Tiles/igloo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../GDevelop-Projects/kenney_platformer-art-deluxe/Ice expansion/Tiles/igloo.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/stanley_sp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/stanley_sp.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/playersprite/stand.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/playersprite/stand.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../GDevelop-Projects/kenney_platformer-art-deluxe/Base pack/Tiles/stoneWall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../GDevelop-Projects/kenney_platformer-art-deluxe/Base pack/Tiles/stoneWall.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../GDevelop-Projects/kenney_platformer-art-deluxe/Base pack/Tiles/hill_largeAlt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../GDevelop-Projects/kenney_platformer-art-deluxe/Base pack/Tiles/hill_largeAlt.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../GDevelop-Projects/kenney_platformer-art-deluxe/Base pack/Tiles/boxExplosive.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../GDevelop-Projects/kenney_platformer-art-deluxe/Base pack/Tiles/boxExplosive.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -640,6 +704,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/levelselection"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/sprinkles-minigame"
     }
   ],
   "externalEvents": [],
@@ -655,6 +723,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
     }
   ],
   "externalLayouts": []
