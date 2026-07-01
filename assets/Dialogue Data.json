@@ -1,0 +1,72 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "Welcome to my greenhouse!\nSeems like you're here for something in particular.\n...\nOh yes! I was busy making some cherry syrup yesterday.\nThe cherry tree I was growing awhile ago finally started bearing fruits!\nAnd from what I heard, you're in need of an ingredient for the children who visited recently, isn't it?\nThat being said...\nPerhaps I could give you the syrup...\nBut first, I'd like to ask you a few questions.\nJust to make sure my dear syrup is in good hands.\nSo! I'd like you to answer some questions about botany, pretty please with a cherry on top?\n[[ Yeah, sure.|Question1]]",
+		"position": {
+			"x": 436,
+			"y": 251
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Question1",
+		"tags": "",
+		"body": "Great! I knew you'd agree to it hehe.\nLet's start.\nQuestion 1: Which of these terms is used to describe the means by which the male and female cells combine to form a new cell which then eventually develops into a new embryo?\n[[ Respiration |wrong1]]\n[[ Ptyxis |wrong2]]\n[[ Photosynthesis |wrong3]]\n[[ Fertilization |correct]]",
+		"position": {
+			"x": 297,
+			"y": -90
+		},
+		"colorID": 0
+	},
+	{
+		"title": "wrong1",
+		"tags": "",
+		"body": "Wroooong.\nIn botany, ptyxis refers to the specific way an individual leaf is folded, rolled, or coiled while inside a vegetative bud!\nIt occurs when the plant is newly emerging, typically during early spring.\nMoving on...\n [[|Question2]]",
+		"position": {
+			"x": 470,
+			"y": -318
+		},
+		"colorID": 0
+	},
+	{
+		"title": "wrong2",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 731,
+			"y": -286
+		},
+		"colorID": 0
+	},
+	{
+		"title": "wrong3",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 990,
+			"y": -134
+		},
+		"colorID": 0
+	},
+	{
+		"title": "correct",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 1229,
+			"y": 33
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Question2",
+		"tags": "",
+		"body": "yo you dumb as shit lol",
+		"position": {
+			"x": 1148,
+			"y": -740
+		},
+		"colorID": 0
+	}
+]

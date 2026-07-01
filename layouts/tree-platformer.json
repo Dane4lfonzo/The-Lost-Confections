@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.580468750000006,
+    "zoomFactor": 0.5468750000000033,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -29,7 +29,6 @@
   "variables": [
     {
       "name": "Variable",
-      "persistentUuid": "89f320bb-b27c-40bd-9c1b-d3877a87256a",
       "type": "number",
       "value": 0
     }
@@ -45,8 +44,8 @@
       "name": "Stem",
       "persistentUuid": "0a5286a5-262d-461c-b5f3-8b4ff345e611",
       "width": 168,
-      "x": 559,
-      "y": -750,
+      "x": 722,
+      "y": -752,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -62,8 +61,8 @@
       "name": "NormalLeaf",
       "persistentUuid": "f8619fe2-f291-4eca-917e-46beee1e8893",
       "width": 70,
-      "x": 695,
-      "y": 582,
+      "x": 858,
+      "y": 580,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -79,8 +78,8 @@
       "name": "NormalLeaf",
       "persistentUuid": "058d42f9-1ae9-4d1d-a75b-9f7a1ec897a5",
       "width": 70,
-      "x": 503,
-      "y": 621,
+      "x": 666,
+      "y": 619,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -96,8 +95,8 @@
       "name": "Ingredient",
       "persistentUuid": "260262e3-3903-436b-b29e-0df564cae8a0",
       "width": 35,
-      "x": 624,
-      "y": -634,
+      "x": 787,
+      "y": -636,
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
@@ -113,8 +112,8 @@
       "name": "Fly",
       "persistentUuid": "f4d6bb60-fd9e-48a5-baff-848d4e8675be",
       "width": 39,
-      "x": 708,
-      "y": 335,
+      "x": 871,
+      "y": 333,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -147,8 +146,8 @@
       "name": "NormalLeaf",
       "persistentUuid": "dc6e9c53-6b6a-403b-9915-20b3ac2f6804",
       "width": 70,
-      "x": 621,
-      "y": 511,
+      "x": 784,
+      "y": 509,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -164,8 +163,8 @@
       "name": "NormalLeaf",
       "persistentUuid": "ff0ef96d-6fa7-40dd-a6d6-644d91959ca3",
       "width": 70,
-      "x": 511,
-      "y": 463,
+      "x": 674,
+      "y": 461,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -181,8 +180,8 @@
       "name": "NormalLeaf",
       "persistentUuid": "c65399c5-a215-4c99-91b7-c1c4d156a587",
       "width": 70,
-      "x": 573,
-      "y": 375,
+      "x": 736,
+      "y": 373,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -198,8 +197,8 @@
       "name": "NormalLeaf",
       "persistentUuid": "fb774ed7-1e30-4ef4-8dc0-f065f81c15c6",
       "width": 70,
-      "x": 692,
-      "y": 434,
+      "x": 855,
+      "y": 432,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -215,8 +214,8 @@
       "name": "NormalLeaf",
       "persistentUuid": "b92986e8-5b63-4eec-944e-3ea9d1a14c0b",
       "width": 70,
-      "x": 757,
-      "y": 303,
+      "x": 920,
+      "y": 301,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -232,8 +231,8 @@
       "name": "NormalLeaf",
       "persistentUuid": "22de9277-d70c-48ca-ab2b-d06d83d92c99",
       "width": 70,
-      "x": 524,
-      "y": 195,
+      "x": 687,
+      "y": 193,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -249,8 +248,8 @@
       "name": "NormalLeaf",
       "persistentUuid": "12557b51-1fb1-4c2b-b3b6-8db78c0f630e",
       "width": 70,
-      "x": 668,
-      "y": 159,
+      "x": 831,
+      "y": 157,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -266,8 +265,8 @@
       "name": "NormalLeaf",
       "persistentUuid": "6bf45f60-e8ba-43e1-8411-d85fae6bee76",
       "width": 70,
-      "x": 568,
-      "y": 13,
+      "x": 731,
+      "y": 11,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -283,8 +282,8 @@
       "name": "NormalLeaf",
       "persistentUuid": "daea49a0-ffca-4b3b-8fcb-a300720bb2ca",
       "width": 70,
-      "x": 521,
-      "y": -65,
+      "x": 684,
+      "y": -67,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -300,8 +299,8 @@
       "name": "NormalLeaf",
       "persistentUuid": "e9225231-1139-4c41-b77b-985fb0bd67e5",
       "width": 70,
-      "x": 652,
-      "y": -144,
+      "x": 815,
+      "y": -146,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -317,8 +316,8 @@
       "name": "NormalLeaf",
       "persistentUuid": "2ddccd9a-659a-4966-8b09-aa836e97fe0d",
       "width": 70,
-      "x": 448,
-      "y": -189,
+      "x": 611,
+      "y": -191,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -334,8 +333,8 @@
       "name": "NormalLeaf",
       "persistentUuid": "7bd580ea-240c-4c7d-ba78-bdec9aa9ebb8",
       "width": 70,
-      "x": 573,
-      "y": -234,
+      "x": 736,
+      "y": -236,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -351,8 +350,8 @@
       "name": "NormalLeaf",
       "persistentUuid": "1a782d01-88f9-4f77-b7c3-d80125ea9ea6",
       "width": 70,
-      "x": 705,
-      "y": -272,
+      "x": 868,
+      "y": -274,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -368,8 +367,8 @@
       "name": "NormalLeaf",
       "persistentUuid": "e219bf8d-26f4-4923-93a9-0f7eec04d7b7",
       "width": 70,
-      "x": 765,
-      "y": -351,
+      "x": 928,
+      "y": -353,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -385,8 +384,8 @@
       "name": "NormalLeaf",
       "persistentUuid": "8b21f3c3-b00b-45c8-8735-e4d3e1695ec7",
       "width": 70,
-      "x": 606,
-      "y": -393,
+      "x": 769,
+      "y": -395,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -402,8 +401,8 @@
       "name": "NormalLeaf",
       "persistentUuid": "0740df7c-9f06-48f9-b452-4764cc7d5a68",
       "width": 70,
-      "x": 516,
-      "y": -463,
+      "x": 679,
+      "y": -465,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -419,8 +418,8 @@
       "name": "NormalLeaf",
       "persistentUuid": "20818e47-db1e-47fb-86f9-c29af7efdc1f",
       "width": 70,
-      "x": 686,
-      "y": -483,
+      "x": 849,
+      "y": -485,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -436,8 +435,8 @@
       "name": "NormalLeaf",
       "persistentUuid": "192d1841-695b-45b6-940b-01a9e4efd151",
       "width": 70,
-      "x": 632,
-      "y": -529,
+      "x": 795,
+      "y": -531,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -453,8 +452,8 @@
       "name": "NormalLeaf",
       "persistentUuid": "28aed423-ffdb-4042-8a33-9984a4009dd7",
       "width": 70,
-      "x": 608,
-      "y": -590,
+      "x": 771,
+      "y": -592,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -504,8 +503,8 @@
       "name": "Checkpoint",
       "persistentUuid": "e5bef8ba-4661-4c2e-a212-a371f0d5e85a",
       "width": 25,
-      "x": 797,
-      "y": 280,
+      "x": 960,
+      "y": 278,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -521,8 +520,8 @@
       "name": "SlipperyLeaf",
       "persistentUuid": "18305ea6-6b42-47c9-ad18-4038f8da45ac",
       "width": 70,
-      "x": 693,
-      "y": 90,
+      "x": 856,
+      "y": 88,
       "zOrder": 34,
       "numberProperties": [],
       "stringProperties": [],
@@ -538,9 +537,25 @@
       "name": "FragileLeaf",
       "persistentUuid": "cce429be-7193-474f-b35a-506ed14f7650",
       "width": 70,
-      "x": 639,
-      "y": 277,
+      "x": 802,
+      "y": 275,
       "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Guide",
+      "persistentUuid": "c8b23419-a6c6-46ce-b78d-8d72c0a5d7ad",
+      "width": 0,
+      "x": 4,
+      "y": 576,
+      "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -552,7 +567,7 @@
       "height": 32,
       "name": "NormalLeaf",
       "persistentUuid": "64518985-5003-4358-b468-3abae1976a1b",
-      "texture": "../../../../Downloads/Base pack/Tiles/grassHalf.png",
+      "texture": "assets/tiles/normalLeaf.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -692,7 +707,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/playersprite/stanley_sp.png",
+                  "image": "assets/stand.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -728,7 +743,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/playersprite/stanley_sp2.png",
+                  "image": "assets/stand2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -776,7 +791,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/playersprite/stanley_sp3.png",
+                  "image": "assets/stanley_sp3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -812,7 +827,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/playersprite/stanley_sp4.png",
+                  "image": "assets/stanley_sp4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -860,7 +875,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/playersprite/stanley_sp3.png",
+                  "image": "assets/stanley_sp4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -927,7 +942,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../../Downloads/Base pack/Items/buttonRed.png",
+                  "image": "assets/items/buttonRed.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -975,7 +990,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../../Downloads/Base pack/Items/buttonRed_pressed.png",
+                  "image": "assets/items/buttonRed_pressed.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1035,17 +1050,16 @@
       ],
       "animations": [
         {
-          "name": "../../../../Downloads/PNG/Objects/stick_wood",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../../Downloads/PNG/Objects/stick_wood",
+                  "image": "assets/tiles/stem.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1126,7 +1140,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../../Downloads/Base pack/Items/star.png",
+                  "image": "assets/items/star.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1192,7 +1206,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../../Downloads/Base pack/Enemies/flyFly1.png",
+                  "image": "assets/enemies/flyFly1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1228,7 +1242,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../../Downloads/Base pack/Enemies/flyFly2.png",
+                  "image": "assets/enemies/flyFly2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1277,7 +1291,15 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "Jumpthru",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "../../../../Downloads/Base pack/Tiles/sandMid",
@@ -1290,7 +1312,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../../Downloads/Base pack/Tiles/sandMid2",
+                  "image": "assets/tiles/fragileLeaf.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1360,7 +1382,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../../Downloads/Base pack/Tiles/snowHalfMid2",
+                  "image": "assets/tiles/slipperyLeaf.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1421,7 +1443,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../../Downloads/images (1).jpg",
+                  "image": "assets/backgrounds/cloud-sky.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1451,67 +1473,6 @@
                       {
                         "x": 0,
                         "y": 350
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "ref2",
-      "persistentUuid": "a23baefc-58fa-4d79-b732-7c43a2fae123",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "../../../../Downloads/doodle-jump-extra-game-play.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1500,
-                        "y": 0
-                      },
-                      {
-                        "x": 1500,
-                        "y": 865
-                      },
-                      {
-                        "x": 0,
-                        "y": 865
                       }
                     ]
                   ]
@@ -1536,7 +1497,7 @@
         "fontSize": 20,
         "visible": true,
         "color": "0;0;0",
-        "fontFamily": "Arial",
+        "fontFamily": "retro-pixel-cute-prop.ttf",
         "align": "left",
         "verticalTextAlignment": "top"
       }
@@ -1574,9 +1535,6 @@
       },
       {
         "objectName": "Background"
-      },
-      {
-        "objectName": "ref2"
       },
       {
         "objectName": "Guide"
@@ -1946,6 +1904,18 @@
         },
         {
           "type": {
+            "value": "CenterCameraOnObject"
+          },
+          "parameters": [
+            "",
+            "Stanley",
+            "",
+            "\"UI\"",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "ZoomCamera"
           },
           "parameters": [
@@ -1974,6 +1944,17 @@
             "",
             "2.5",
             "\"Platforms\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "2.5",
+            "\"UI\"",
             ""
           ]
         }
@@ -2236,7 +2217,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "",
       "renderingType": "",
       "visibility": true,
