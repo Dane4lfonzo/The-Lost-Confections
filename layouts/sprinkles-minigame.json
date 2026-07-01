@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.37687720367508776,
+    "zoomFactor": 0.29879853636069087,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -29,19 +29,16 @@
   "variables": [
     {
       "name": "BalloonScore",
-      "persistentUuid": "e92a6c92-10f6-4827-9895-695af24c2b4a",
       "type": "number",
       "value": 0
     },
     {
       "name": "Timer",
-      "persistentUuid": "219fa3a6-8f93-41d8-94f5-26780b6f77fe",
       "type": "number",
       "value": 0
     },
     {
       "name": "Health",
-      "persistentUuid": "8848fb02-f8bc-4d03-a21b-bda0ba3b2b7d",
       "type": "number",
       "value": 3
     }
@@ -254,10 +251,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -273,6 +270,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 3000,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
@@ -285,9 +284,7 @@
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
           "maxSpeed": 250,
-          "name": "PlatformerObject",
           "slopeMaxAngle": 60,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "useLegacyTrajectory": false,
           "useRepeatedJump": false,
           "xGrabTolerance": 10,
@@ -357,10 +354,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
