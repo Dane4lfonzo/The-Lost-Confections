@@ -1,13 +1,13 @@
 {
-  "b": 255,
+  "b": 0,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Untitled_32scene",
-  "name": "Untitled scene",
-  "r": 247,
+  "mangledName": "Tree_32Platformer_32Tutorial",
+  "name": "Tree Platformer Tutorial",
+  "r": 0,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 249,
+  "v": 0,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -20,31 +20,143 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5843784410740926,
+    "zoomFactor": 0.546875,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
-  "variables": [
+  "variables": [],
+  "instances": [
     {
-      "name": "Variable",
-      "type": "number",
-      "value": 0
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 569,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "TutorialTXT",
+      "persistentUuid": "264e4ec4-3c43-42b3-92b4-d667f4309c3b",
+      "width": 1218,
+      "x": 30,
+      "y": 33,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 716,
+      "keepRatio": true,
+      "layer": "Background",
+      "name": "Background",
+      "persistentUuid": "362fdc4a-0f1f-4d69-8cb1-a702601c5bd0",
+      "width": 1279,
+      "x": 1,
+      "y": 2,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
-  "instances": [],
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "TutorialTXT",
+      "persistentUuid": "aa2d9c51-6780-468f-b369-8d030225353c",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "INSTRUCTIONS:\n\n1. THE INGREDIENT IS UP THE TREE\n\n2. STANLEY MUST CLIMB THE TREE TO RETREIVE THE INGREDIENT\n\n3. WATCH OUT! THERE ARE ENEMIES LIVING AND ROAMING IN THE TREE\n\n4. ",
+        "opacity": 255,
+        "fontSize": 45,
+        "visible": true,
+        "color": "255;255;255",
+        "fontFamily": "retro-pixel-cute-prop.ttf",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Background",
+      "persistentUuid": "86a3cef1-3e6c-4968-96f5-b49f308f1859",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/backgrounds/level_menu.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "TutorialTXT"
+      },
+      {
+        "objectName": "Background"
+      }
+    ]
   },
-  "events": [
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    }
-  ],
+  "events": [],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -123,7 +235,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Tree",
+      "name": "Background",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -177,61 +289,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Platforms",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Ambient Hemisphere Light",
-          "doubleParameters": {
-            "elevation": 40,
-            "intensity": 0.33,
-            "rotation": 300
-          },
-          "stringParameters": {
-            "groundColor": "127;127;127",
-            "skyColor": "255;255;255",
-            "top": "Z+"
-          },
-          "booleanParameters": {}
-        },
-        {
-          "effectType": "Scene3D::DirectionalLight",
-          "name": "3D Sun Light",
-          "doubleParameters": {
-            "distanceFromCamera": 1500,
-            "elevation": 40,
-            "frustumSize": 4000,
-            "intensity": 0.75,
-            "minimumShadowBias": 0,
-            "rotation": 300
-          },
-          "stringParameters": {
-            "color": "255;255;255",
-            "shadowQuality": "medium",
-            "top": "Z+"
-          },
-          "booleanParameters": {
-            "isCastingShadow": true
-          }
-        }
-      ]
-    },
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera2DPlaneMaxDrawingDistance": 5000,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 3,
-      "cameraType": "",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "Layer",
+      "name": "UI",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -274,5 +332,30 @@
       ]
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    }
+  ]
 }
