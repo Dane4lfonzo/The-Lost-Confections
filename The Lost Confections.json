@@ -451,6 +451,7 @@
         "smoothed": false,
         "userAdded": false
       },
+      {
         "file": "../GDevelop-Projects/kenney_platformer-art-deluxe/Ice expansion/Tiles/igloo.png",
         "kind": "image",
         "metadata": "",
@@ -482,6 +483,7 @@
         "smoothed": false,
         "userAdded": false
       },
+      {
         "file": "assets/playersprite/stand.png",
         "kind": "image",
         "metadata": "",
