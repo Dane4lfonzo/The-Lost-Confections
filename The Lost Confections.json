@@ -358,7 +358,7 @@
       {
         "file": "assets/directions/arrow.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/directions/arrow.png\",\"extension\":\".png\"}",
         "name": "assets/directions/arrow.png",
         "smoothed": false,
         "userAdded": false
@@ -420,6 +420,14 @@
         "userAdded": false
       },
       {
+        "file": "../GDevelop-Projects/kenney_platformer-art-deluxe/Ice expansion/preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../GDevelop-Projects/kenney_platformer-art-deluxe/Ice expansion/preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "assets/NewSprite4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -428,10 +436,25 @@
         "userAdded": false
       },
       {
+        "file": "igloo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "igloo.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "assets/backgrounds/wallcorner.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/backgrounds/wallcorner.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+        "file": "../GDevelop-Projects/kenney_platformer-art-deluxe/Ice expansion/Tiles/igloo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../GDevelop-Projects/kenney_platformer-art-deluxe/Ice expansion/Tiles/igloo.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -444,10 +467,25 @@
         "userAdded": false
       },
       {
+        "file": "assets/stanley_sp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/stanley_sp.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "assets/NewSprite4.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/NewSprite4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+        "file": "assets/playersprite/stand.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/playersprite/stand.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -460,10 +498,26 @@
         "userAdded": false
       },
       {
+        "file": "../GDevelop-Projects/kenney_platformer-art-deluxe/Base pack/Tiles/stoneWall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../GDevelop-Projects/kenney_platformer-art-deluxe/Base pack/Tiles/stoneWall.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "assets/door/door2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/door/door2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../GDevelop-Projects/kenney_platformer-art-deluxe/Base pack/Tiles/hill_largeAlt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../GDevelop-Projects/kenney_platformer-art-deluxe/Base pack/Tiles/hill_largeAlt.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -476,10 +530,26 @@
         "userAdded": false
       },
       {
+        "file": "../GDevelop-Projects/kenney_platformer-art-deluxe/Base pack/Tiles/boxExplosive.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../GDevelop-Projects/kenney_platformer-art-deluxe/Base pack/Tiles/boxExplosive.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "assets/door/louieroomdoor.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/door/louieroomdoor.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/directions/arrow2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/directions/arrow",
         "smoothed": false,
         "userAdded": false
       },
@@ -492,10 +562,34 @@
         "userAdded": false
       },
       {
+        "file": "assets/directions/arrow3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/directions/arrow2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "assets/door/torresroomdoor.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/door/torresroomdoor.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/directions/arrow4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/directions/arrow3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bright.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Bright",
         "smoothed": false,
         "userAdded": false
       },
@@ -508,10 +602,26 @@
         "userAdded": false
       },
       {
+        "file": "assets/directions/Bright.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/directions/Bright.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "assets/basket_touch.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/basket_touch.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/directions/DimArrowUp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/directions/DimArrowUp.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -524,6 +634,14 @@
         "userAdded": false
       },
       {
+        "file": "assets/directions/BrightArrowUp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/directions/BrightArrowUp.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "assets/instructemote.png",
         "kind": "image",
         "metadata": "",
@@ -532,10 +650,90 @@
         "userAdded": false
       },
       {
+        "file": "assets/directions/BrightArrowRight.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/directions/BrightArrowRight.png\"}",
+        "name": "assets/directions/BrightArrowRight",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/directions/BrightArrowLeft.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/directions/BrightArrowLeft",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/directions/BrightArrowDown.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/directions/BrightArrowDown",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/directions/BrightArrowDown.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/directions/BrightArrowDown.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dim.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dim",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/directions/BrightArrowLeft.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/directions/BrightArrowLeft.png\",\"extension\":\".png\"}",
+        "name": "assets/directions/BrightArrowLeft.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bright2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Bright2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/directions/BrightArrowRight.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/directions/BrightArrowRight.png\",\"extension\":\".png\"}",
+        "name": "assets/directions/BrightArrowRight.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bright3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Bright3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "assets/dialogue_box.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/dialogue_box.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../GDevelop-Projects/kenney_platformer-art-deluxe/Buildings expansion/Tiles/doorOpen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../GDevelop-Projects/kenney_platformer-art-deluxe/Buildings expansion/Tiles/doorOpen.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -1273,6 +1471,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/levelselection"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/sprinkles-minigame"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/color-pattern-minigame"
     }
   ],
   "externalEvents": [],
@@ -1288,6 +1494,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
     }
   ],
   "externalLayouts": []
