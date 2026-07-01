@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5427920802473276,
+    "zoomFactor": 0.47535850871269336,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -30,68 +30,73 @@
     {
       "folded": true,
       "name": "SystemPattern",
-      "persistentUuid": "cdbd977d-53fb-4f93-ab0c-176a8f5ace4e",
+      "persistentUuid": "81ce8221-fbc3-4447-a9e8-a4dbd74ee6a2",
       "type": "array",
       "children": [
         {
-          "persistentUuid": "392abc53-62ac-4662-a4aa-87c7d7fb6238",
+          "persistentUuid": "437ddbce-5c91-44ad-ae3a-c4cba98535a4",
           "type": "number",
           "value": 1
         },
         {
-          "persistentUuid": "988643e1-f257-4f2b-9d24-7d316fe54622",
+          "persistentUuid": "5fda93e8-6a66-41fa-b96e-dab6e698bd95",
           "type": "number",
           "value": 2
         },
         {
-          "persistentUuid": "f61ecfd6-648b-4b9c-afc6-9e33a6404737",
+          "persistentUuid": "a18671cf-29da-4b4c-9a40-929fc6af810d",
           "type": "number",
           "value": 3
         }
       ]
     },
     {
-      "folded": true,
-      "name": "PlayerPattern",
-      "persistentUuid": "a134f3bf-24b2-4d52-9f0d-3119687c6d57",
-      "type": "array",
-      "children": []
-    },
-    {
       "name": "SystemStep",
-      "persistentUuid": "63fd982b-b4c4-4d31-9aa4-8e6e5d47e8e2",
+      "persistentUuid": "06fd7d44-3704-4cb3-8a9c-d7da27bd6f45",
       "type": "number",
       "value": 0
     },
     {
       "name": "PlayerStep",
-      "persistentUuid": "7e47f398-60ac-43a4-94ec-cba0dc5e3439",
+      "persistentUuid": "56c13796-ee24-4532-a5f1-a2b97d4a7b0e",
       "type": "number",
-      "value": 0
+      "value": -1
     },
     {
       "name": "CurrentTurn",
-      "persistentUuid": "49625d0b-0c0a-4be0-81c2-e1d1f267daed",
+      "persistentUuid": "3dcb18de-b673-417c-84a3-22cfb0e60548",
       "type": "string",
       "value": "System"
     },
     {
       "name": "Timer",
-      "persistentUuid": "8a8626a8-b407-4573-8d1d-28370154e57c",
+      "persistentUuid": "2d846ae5-c998-42fd-b2e8-45ad99ccbdfa",
       "type": "number",
       "value": 0
     },
     {
       "name": "SystemPhase",
-      "persistentUuid": "d58e41f5-735b-4958-b11b-6468e9f9ac9d",
+      "persistentUuid": "49ead7b7-04d1-4f28-bbc0-c8874cbd9b23",
       "type": "string",
       "value": "FirstLvl"
     },
     {
       "name": "LastInput",
-      "persistentUuid": "f2106d77-53bd-48c4-9875-42ee9da98dfa",
+      "persistentUuid": "502e9fa4-acbd-4c01-a310-8e60a5409745",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "StepsThisPhase",
+      "persistentUuid": "1a184b5c-eb4a-4045-9985-3593e4ec7c9e",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "SystemPlayPattern",
+      "persistentUuid": "ea27d34b-e570-4b78-aa16-10cff6af2758",
+      "type": "boolean",
+      "value": true
     }
   ],
   "instances": [
@@ -159,6 +164,22 @@
       "x": 1020,
       "y": 420,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DebugText",
+      "persistentUuid": "8ed67337-d953-4db8-a0e6-4d3cc1df0263",
+      "width": 0,
+      "x": 385,
+      "y": 266,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -668,6 +689,50 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "DebugText",
+      "persistentUuid": "90fb8b38-6c10-46c7-8ce5-d7979a95d3cf",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -687,6 +752,9 @@
       },
       {
         "objectName": "Test"
+      },
+      {
+        "objectName": "DebugText"
       }
     ]
   },
@@ -745,10 +813,11 @@
         },
         {
           "type": {
-            "value": "PushNumber"
+            "value": "SetNumberVariable"
           },
           "parameters": [
-            "PlayerPattern",
+            "PlayerStep",
+            "+",
             "1"
           ]
         }
@@ -835,11 +904,12 @@
         },
         {
           "type": {
-            "value": "PushNumber"
+            "value": "SetNumberVariable"
           },
           "parameters": [
-            "PlayerPattern",
-            "2"
+            "PlayerStep",
+            "+",
+            "1"
           ]
         }
       ]
@@ -925,11 +995,12 @@
         },
         {
           "type": {
-            "value": "PushNumber"
+            "value": "SetNumberVariable"
           },
           "parameters": [
-            "PlayerPattern",
-            "3"
+            "PlayerStep",
+            "+",
+            "1"
           ]
         }
       ]
@@ -1015,11 +1086,12 @@
         },
         {
           "type": {
-            "value": "PushNumber"
+            "value": "SetNumberVariable"
           },
           "parameters": [
-            "PlayerPattern",
-            "4"
+            "PlayerStep",
+            "+",
+            "1"
           ]
         }
       ]
@@ -1436,6 +1508,33 @@
       "conditions": [
         {
           "type": {
+            "value": "StringVariable"
+          },
+          "parameters": [
+            "SystemPhase",
+            "=",
+            "\"FirstLvl\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "StepsThisPhase",
+            "=",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "NumberVariable"
           },
           "parameters": [
@@ -1466,73 +1565,158 @@
         },
         {
           "type": {
-            "value": "BuiltinCommonInstructions::CompareNumbers"
+            "value": "AnyKeyPressed"
           },
           "parameters": [
-            "PlayerPattern[Variable(PlayerStep)]",
-            "=",
-            "SystemPattern[Variable(PlayerStep)]"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "PlayerStep",
-            "+",
-            "1"
+            ""
           ]
         },
         {
           "type": {
-            "value": "SetNumberVariable"
+            "value": "BuiltinCommonInstructions::Once"
           },
-          "parameters": [
-            "LastInput",
-            "=",
-            "0"
+          "parameters": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "LastInput",
+                "=",
+                "SystemPattern[Variable(PlayerStep)]"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Test",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "LastInput",
+                "=",
+                "SystemPattern[Variable(PlayerStep)]"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "LastInput",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "CurrentTurn",
+                "=",
+                "\"System\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SystemStep",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "PlayerStep",
+                "=",
+                "-1"
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Else",
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
             "value": "BuiltinCommonInstructions::CompareNumbers"
           },
           "parameters": [
-            "PlayerPattern[Variable(PlayerStep)]",
-            "!=",
-            "SystemPattern[Variable(PlayerStep)]"
+            "PlayerStep",
+            "=",
+            "StepsThisPhase"
           ]
-        },
+        }
+      ],
+      "actions": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "DEBUG",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
         {
           "type": {
-            "value": "StringVariable"
+            "value": "BuiltinCommonInstructions::CompareNumbers"
           },
           "parameters": [
-            "CurrentTurn",
+            "PlayerStep",
             "=",
-            "\"Player\""
+            "StepsThisPhase"
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "Create"
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "",
-            "Test",
-            "1000",
-            "300",
-            ""
+            "DebugText",
+            "Text",
+            "=",
+            "\"COMPLETED PHASE 1\""
           ]
         }
       ]
@@ -1629,6 +1813,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "YSort",
