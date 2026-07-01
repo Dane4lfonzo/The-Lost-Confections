@@ -20,13 +20,20 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.06718013533820782,
+    "zoomFactor": 0.27962265218397586,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "CurrentNPC",
+      "persistentUuid": "a0b0eac9-f823-4f57-8be7-29d2cb602b57",
+      "type": "string",
+      "value": "None"
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -35,7 +42,7 @@
       "height": 189.19999999999982,
       "keepRatio": true,
       "layer": "Player + NPC",
-      "name": "childlvl1",
+      "name": "childnpc",
       "persistentUuid": "3403f28b-e427-4c36-97a5-0a94e2fdf447",
       "width": 172,
       "x": 255,
@@ -43,7 +50,13 @@
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "Name",
+          "type": "string",
+          "value": "lvl1"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -55,25 +68,9 @@
       "name": "Stanley",
       "persistentUuid": "ff5e78b5-658d-46fe-85e9-7cf835dbf028",
       "width": 247,
-      "x": 981,
-      "y": 634,
+      "x": 934,
+      "y": 683,
       "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Player + NPC",
-      "name": "E",
-      "persistentUuid": "a3628a87-b792-46f4-8818-97a36cda9577",
-      "width": 0,
-      "x": 241,
-      "y": 314,
-      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -82,14 +79,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 6206,
+      "height": 6354,
       "keepRatio": true,
       "layer": "Background",
       "name": "Floor",
       "persistentUuid": "36a3b345-ea84-4fce-b109-16045b3fff40",
       "width": 9058,
       "x": -3874,
-      "y": -2684,
+      "y": -2717,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -133,14 +130,14 @@
       "angle": -90,
       "customSize": true,
       "depth": 1,
-      "height": 2886,
+      "height": 2746,
       "keepRatio": true,
       "layer": "",
       "name": "wall",
       "persistentUuid": "20d21bfb-d721-49af-a849-08d871f7854a",
-      "width": 641,
-      "x": -1767,
-      "y": 14,
+      "width": 639,
+      "x": -1836,
+      "y": 85,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -201,14 +198,14 @@
       "angle": 90,
       "customSize": true,
       "depth": 1,
-      "height": 1904,
+      "height": 974,
       "keepRatio": true,
       "layer": "Background",
       "name": "wallend",
       "persistentUuid": "bb0dd06d-c822-48e8-a122-dc907cce3e5c",
       "width": 5135,
-      "x": -6410,
-      "y": 29,
+      "x": -5945,
+      "y": 494,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -218,7 +215,7 @@
       "angle": -180,
       "customSize": true,
       "depth": 1,
-      "height": 2395,
+      "height": 2403,
       "keepRatio": true,
       "layer": "",
       "name": "wall",
@@ -235,14 +232,14 @@
       "angle": -90,
       "customSize": true,
       "depth": 1,
-      "height": 3240,
+      "height": 3225,
       "keepRatio": true,
       "layer": "",
       "name": "wall",
       "persistentUuid": "496fd62f-53b4-441c-b2ce-c482072eb794",
       "width": 642,
-      "x": 3230,
-      "y": -141,
+      "x": 3238,
+      "y": -133,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -252,7 +249,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1904,
+      "height": 1938,
       "keepRatio": true,
       "layer": "Background",
       "name": "wallend",
@@ -269,14 +266,14 @@
       "angle": -180,
       "customSize": true,
       "depth": 1,
-      "height": 2681,
+      "height": 2599,
       "keepRatio": true,
       "layer": "",
       "name": "wall",
       "persistentUuid": "9894f3d6-d291-4748-a974-727e6a596f8e",
       "width": 641,
       "x": 1948,
-      "y": -2766,
+      "y": -2684,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -286,14 +283,14 @@
       "angle": 90,
       "customSize": true,
       "depth": 1,
-      "height": 3241,
+      "height": 3231,
       "keepRatio": true,
       "layer": "",
       "name": "wall",
       "persistentUuid": "6dc972e5-0fdb-48f8-933e-4f7fded562e0",
       "width": 639,
-      "x": 3238,
-      "y": -1520,
+      "x": 3244,
+      "y": -1514,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -320,124 +317,340 @@
       "angle": 90,
       "customSize": true,
       "depth": 1,
-      "height": 1650,
+      "height": 1060,
       "keepRatio": true,
       "layer": "Background",
       "name": "wallend",
       "persistentUuid": "c0d5eb8e-7974-4637-b520-9e7c761f6138",
       "width": 5174,
-      "x": 3410,
-      "y": 140,
+      "x": 3115,
+      "y": 435,
       "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 735,
+      "keepRatio": true,
+      "layer": "Background",
+      "name": "wallend",
+      "persistentUuid": "2db66be8-3821-4714-a99c-198ceda59c4c",
+      "width": 5174,
+      "x": -1596,
+      "y": 3561,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 663,
+      "keepRatio": true,
+      "layer": "",
+      "name": "wallcorner",
+      "persistentUuid": "ed8b4ccf-9be2-4f15-a032-aa0575af166f",
+      "width": 651,
+      "x": -666,
+      "y": 1137,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 663,
+      "keepRatio": true,
+      "layer": "",
+      "name": "wallcorner",
+      "persistentUuid": "2b5f5a34-18e5-49e3-a90c-1d7ef143640f",
+      "width": 651,
+      "x": -666,
+      "y": -164,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -1,
+      "customSize": true,
+      "depth": 1,
+      "flippedX": true,
+      "height": 663,
+      "keepRatio": true,
+      "layer": "",
+      "name": "wallcorner",
+      "persistentUuid": "a2d578eb-02c9-4622-8f1c-9f567f9937f8",
+      "width": 651,
+      "x": 1938,
+      "y": 1163,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -180,
+      "customSize": true,
+      "depth": 1,
+      "height": 661,
+      "keepRatio": true,
+      "layer": "",
+      "name": "wallcorner",
+      "persistentUuid": "a16ba60e-1dd1-4931-b5a2-75f6a11825fa",
+      "width": 651,
+      "x": 1948,
+      "y": -240,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 179.99999999999994,
+      "keepRatio": true,
+      "layer": "Player + NPC",
+      "name": "childnpc",
+      "persistentUuid": "02232d08-b888-4ed4-9622-eef708f967d6",
+      "width": 180,
+      "x": 1649,
+      "y": 382,
+      "zOrder": 11,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Name",
+          "type": "string",
+          "value": "tutorialguy"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Indicator",
+      "name": "E",
+      "persistentUuid": "675ecbfc-6c78-4816-a4aa-d35c4fece030",
+      "width": 0,
+      "x": 252,
+      "y": 310,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1,
+      "height": 1017,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Doors",
+      "persistentUuid": "fb3173b7-3504-4cf9-aa59-134910d7d3da",
+      "width": 1992,
+      "x": -19,
+      "y": 3561,
+      "zOrder": 13,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 303.02158273381286,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Doors",
+      "persistentUuid": "3ff64b73-00c6-4d6b-8a4b-f6e6f946ee3d",
+      "width": 585,
+      "x": 3484,
+      "y": 118,
+      "zOrder": 14,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 344.6417910447761,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Doors",
+      "persistentUuid": "c4e4e3ee-9671-485e-b1b5-ac4b0cca7201",
+      "width": 537,
+      "x": -2259,
+      "y": 149,
+      "zOrder": 15,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 694,
+      "keepRatio": true,
+      "layer": "Background",
+      "name": "wallend",
+      "persistentUuid": "3384150d-145b-4cb6-b9e8-19b225dc614d",
+      "width": 5174,
+      "x": -1560,
+      "y": -3377,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 641,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Doors",
+      "persistentUuid": "6844f59f-f0f9-4ad7-b933-3993c901b372",
+      "width": 804,
+      "x": 535,
+      "y": -3324,
+      "zOrder": 16,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 4
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -90,
+      "customSize": true,
+      "depth": 1,
+      "height": 225,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Doors",
+      "persistentUuid": "598a197b-38ca-494c-85a7-eabe7eb28e1f",
+      "width": 606,
+      "x": -426,
+      "y": -1314,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 221.1428571428573,
+      "keepRatio": true,
+      "layer": "Menu",
+      "name": "Basket",
+      "persistentUuid": "2462f860-0663-49a5-87d3-31956a338b44",
+      "width": 172,
+      "x": 1702,
+      "y": 31,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Menu",
+      "name": "Settings",
+      "persistentUuid": "38f2add7-c579-4751-9e74-72e82f973c1a",
+      "width": 0,
+      "x": 48,
+      "y": 64,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 90,
+      "keepRatio": true,
+      "layer": "Menu",
+      "name": "location",
+      "persistentUuid": "19613c9b-6c90-466d-aef5-6c936617b6db",
+      "width": 703,
+      "x": 619,
+      "y": 913,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 173.99999999999994,
+      "keepRatio": true,
+      "layer": "Menu",
+      "name": "Instructions",
+      "persistentUuid": "00caf3b9-9856-4456-810c-d363ebc4be7d",
+      "width": 174,
+      "x": 1492,
+      "y": 67,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "childlvl1",
-      "persistentUuid": "382091c4-777b-4926-9bd8-a6726a8f3fce",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "YSort",
-          "type": "YSort::YSort"
-        }
-      ],
-      "animations": [
-        {
-          "name": "stand",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.8,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "stand3",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 19.5,
-                    "y": 44
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 1
-                      },
-                      {
-                        "x": 38,
-                        "y": 1
-                      },
-                      {
-                        "x": 38,
-                        "y": 44
-                      },
-                      {
-                        "x": 0,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "stand4",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 19.5,
-                    "y": 44
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 1
-                      },
-                      {
-                        "x": 38,
-                        "y": 1
-                      },
-                      {
-                        "x": 38,
-                        "y": 44
-                      },
-                      {
-                        "x": 0,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
@@ -583,14 +796,417 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "wallcorner",
+      "persistentUuid": "a976fa97-9d68-4c5a-9fd0-743b30c3465a",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/backgrounds/wallcorner.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 640,
+                        "y": 0
+                      },
+                      {
+                        "x": 640,
+                        "y": 540
+                      },
+                      {
+                        "x": 0,
+                        "y": 540
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Doors",
+      "persistentUuid": "bd0fceb1-5aee-4d09-a8ba-8696957145a2",
+      "type": "Sprite",
+      "updateIfNotVisible": true,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "door1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/door/door1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 402,
+                        "y": 0
+                      },
+                      {
+                        "x": 402,
+                        "y": 120
+                      },
+                      {
+                        "x": 0,
+                        "y": 120
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "exit",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/door/exit.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 402,
+                        "y": 0
+                      },
+                      {
+                        "x": 402,
+                        "y": 120
+                      },
+                      {
+                        "x": 0,
+                        "y": 120
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "louieroomdoor",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/door/louieroomdoor.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 402,
+                        "y": 0
+                      },
+                      {
+                        "x": 402,
+                        "y": 120
+                      },
+                      {
+                        "x": 0,
+                        "y": 120
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "stanroomdoor",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/door/stanroomdoor.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 402,
+                        "y": 0
+                      },
+                      {
+                        "x": 402,
+                        "y": 120
+                      },
+                      {
+                        "x": 0,
+                        "y": 120
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "torresroomdoor",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/door/torresroomdoor.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 402,
+                        "y": 0
+                      },
+                      {
+                        "x": 402,
+                        "y": 120
+                      },
+                      {
+                        "x": 0,
+                        "y": 120
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "door2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/door/door2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 402,
+                        "y": 0
+                      },
+                      {
+                        "x": 402,
+                        "y": 120
+                      },
+                      {
+                        "x": 0,
+                        "y": 120
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "location",
+      "persistentUuid": "98ce57ab-ccab-4364-8e5e-1bcdddf069f7",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Main Circus Room",
+      "font": "retro-pixel-cute-prop.ttf",
+      "textAlignment": "left",
+      "characterSize": 80,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Main Circus Room",
+        "font": "retro-pixel-cute-prop.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 80,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
-      {
-        "objectName": "childlvl1"
-      },
       {
         "objectName": "arrow"
       },
@@ -602,33 +1218,24 @@
       },
       {
         "objectName": "wallend"
+      },
+      {
+        "objectName": "wallcorner"
+      },
+      {
+        "objectName": "Doors"
+      },
+      {
+        "objectName": "location"
       }
     ]
   },
   "events": [
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "childlvl1",
-            "Animation",
-            "=",
-            "\"stand\""
-          ]
-        }
-      ]
-    },
-    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Player Movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -850,7 +1457,8 @@
       "parameters": []
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "childnpc",
       "conditions": [
         {
           "type": {
@@ -858,7 +1466,7 @@
           },
           "parameters": [
             "Stanley",
-            "childlvl1",
+            "childnpc",
             "200",
             ""
           ]
@@ -873,19 +1481,27 @@
             "E",
             ""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Else",
-      "conditions": [],
-      "actions": [
+        },
         {
           "type": {
-            "value": "Hide"
+            "value": "SetStringVariable"
           },
           "parameters": [
-            "E"
+            "CurrentNPC",
+            "=",
+            "childnpc.Name"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "E",
+            "=",
+            "childnpc.X() - 30",
+            "=",
+            "childnpc.Y() - 250"
           ]
         }
       ]
@@ -936,6 +1552,18 @@
                 "Stanley",
                 "",
                 "\"Background\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CenterCameraOnObject"
+              },
+              "parameters": [
+                "",
+                "Stanley",
+                "",
+                "\"Indicator\"",
                 ""
               ]
             }
@@ -998,6 +1626,43 @@
             "Stanley",
             "wallend",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "Distance"
+          },
+          "parameters": [
+            "Stanley",
+            "childnpc",
+            "200",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "E"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "CurrentNPC",
+            "=",
+            "\"None\""
           ]
         }
       ]
@@ -1230,6 +1895,114 @@
           }
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Menu",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Dialogue",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
@@ -1256,6 +2029,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "YSort",
